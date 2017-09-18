@@ -1,6 +1,6 @@
 # 简历
 
-> For english version, please visit [README-EN.md](README-EN.md)
+> For english version, please visit [README-EN.md](README-EN.md)  
 > PDF 下载: [https://fincher.im/CV.pdf](https://fincher.im/CV.pdf)
 
 ### 郑昊天
