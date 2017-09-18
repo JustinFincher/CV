@@ -1,6 +1,7 @@
-#Resume
+# Resume
 
-> 中文版本请访问 [README.md](README.md)
+> 中文版本请访问 [README.md](README.md)  
+> PDF Link: [https://fincher.im/CV(en).pdf](https://fincher.im/CV(en).pdf)
 
 ### Haotian Zheng (Justin Fincher)
 iOS & Unity Developer, amateur UI Designer   
