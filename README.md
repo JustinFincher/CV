@@ -65,7 +65,7 @@ Online Portfolio : [http://portfolio.justzht.com/](http://portfolio.justzht.com/
 (有很多 详见 [Portfolio](http://portfolio.justzht.com/) 及 [GitHub](https://github.com/JustinFincher)，个人博客上也会发布一些未开源／未发布的项目进展。)  
 
 - **Skyline**   
-2018.1 Android 项目，基于 Mapbox & Unity 的动态壁纸，曾于 Google Play 美国 App & Games 总榜前十连续一周（数据源 AppAnnie，2018.1.19 - 2018.1.27）。[Store 地址](https://play.google.com/store/apps/details?id=com.JustZht.Skyline) | [Landing Page](https://justinfincher.github.io/ProjectSkylineLandingWebGL/)  
+2018.1 Android 项目，基于 Mapbox & Unity 的动态壁纸，曾于 Google Play 美国 App & Games 总榜前十连续一周（数据源 AppAnnie，2018.1.19 - 2018.1.27），被 THE VERGE，ANDROID AUTHORITY，LIFEHACKER 报道。[Store 地址](https://play.google.com/store/apps/details?id=com.JustZht.Skyline) | [Landing Page](https://justinfincher.github.io/ProjectSkylineLandingWebGL/)  
 - **Board For GitHub**   
 2017.4 macOS 项目，于 2017.05.25 在 Product Hunt 上排列第四位。[Store 地址](https://justinfincher.github.io/BoardForGitHub-Landing/) | [GitHub](https://github.com/JustinFincher/BoardForGitHub)
 - **Lonely Planet**   

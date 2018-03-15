@@ -65,7 +65,7 @@ Develop Unity software using C#. Main stream APIs understanding & usage. Written
 (Note : I have plenty of them. To see in detail, visit [Portfolio](http://portfolio.justzht.com/) and [GitHub](https://github.com/JustinFincher). I also writes some posts on projects that is WIP or not open sourced on my personal blog)
 
 - **Skyline**   
-2018.1 Android project，Live wallpaper based on Mapbox & Unity, Ranks top ten for a week on Google Play App & Games (US region, data source AppAnnie，2018.1.19 - 2018.1.27)。[Google Play](https://play.google.com/store/apps/details?id=com.JustZht.Skyline) | [Landing Page](https://justinfincher.github.io/ProjectSkylineLandingWebGL/)  
+2018.1 Android project，Live wallpaper based on Mapbox & Unity, Ranks top ten for a week on Google Play App & Games (US region, data source AppAnnie，2018.1.19 - 2018.1.27), featured by THE VERGE，ANDROID AUTHORITY，LIFEHACKER. [Google Play](https://play.google.com/store/apps/details?id=com.JustZht.Skyline) | [Landing Page](https://justinfincher.github.io/ProjectSkylineLandingWebGL/)  
 - **Board For GitHub**    
 2017.4 macOS project, get a quick glance on GitHub boards with natives features. Listed as 4th on Product Hunt 2017.05.25. [Store Link](https://justinfincher.github.io/BoardForGitHub-Landing/) | [GitHub](https://github.com/JustinFincher/BoardForGitHub)
 - **Lonely Planet**    
