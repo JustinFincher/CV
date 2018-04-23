@@ -21,7 +21,7 @@ Online Portfolio : [http://portfolio.justzht.com/](http://portfolio.justzht.com/
 
 ### Skills
 - **Cocoa Development**  
-Develop iOS / macOS software using Objective-C. Can use main stream APIs & frameworks.
+Develop iOS / macOS software using Objective-C. Mastery in main stream APIs & frameworks usage. **Winner of WWDC 2018 Scholarship**.
 
 - **Interface Design & Digital Art**  
 Mobile UI Design (Sketch). Basic 3D modeling (MODO). Texturing (Substance Painter).
@@ -30,6 +30,8 @@ Mobile UI Design (Sketch). Basic 3D modeling (MODO). Texturing (Substance Painte
 Develop Unity software using C#. Main stream APIs understanding & usage. Written some native plugin for iOS / Android.
 
 ### Awards  
+- **IKEA IKODE@SHANGHAI Hackathon Rank #1**    
+2018.4 Developed a app helping people assemble their furniture, using Unity & ARKit. [GitHub](https://github.com/hACKbUSTER/IKEA-Maker)    
 - **i-lab & SegmentFault Shanghai Hackathon Rank #3**  
 2016.10 Developed an information publishing iOS app using the image recognition API from Microsoft Azure with my hACKbUSTER teammates.  [GitHub](https://github.com/hACKbUSTER/ConnectPlusPlus)  
 - **SegmentFault & AngelHack Shenzhen Hackathon Rank #1**  

@@ -21,7 +21,7 @@ Online Portfolio : [http://portfolio.justzht.com/](http://portfolio.justzht.com/
 
 ### 技能  
 - **Cocoa Development**  
-使用 Objective-C 进行 iOS / Mac 软件开发，掌握主流 API & 框架使用。  
+使用 Objective-C 进行 iOS / Mac 软件开发，掌握主流 API & 框架使用。**2018 年 WWDC 奖学金获得者**。  
 
 - **Interface Design & Digital Art**  
 移动端软件界面基础设计（Sketch），基础三维建模（MODO） & 贴图（Substance Painter）。  
@@ -30,6 +30,8 @@ Online Portfolio : [http://portfolio.justzht.com/](http://portfolio.justzht.com/
 使用 C# 开发 Unity 程序，主流的 API 使用，写过 Unity 面向 Android / iOS 的 Native Plugin。  
 
 ### 奖项    
+- **宜家 IKODE@SHANGHAI Hackathon Rank #1**    
+2018.4 同队友使用 Unity 和 ARKit 开发了一款便捷安装家具的软件 [GitHub 地址](https://github.com/hACKbUSTER/IKEA-Maker)    
 - **云赛空间 SegmentFault Shanghai Hackathon Rank #3**    
 2016.10 同队友使用微软图像识别 API 开发了一款 iOS 上的信息发布软件 [GitHub 地址](https://github.com/hACKbUSTER/ConnectPlusPlus)    
 - **SegmentFault AngelHack Shenzhen Hackathon Rank #1**    
