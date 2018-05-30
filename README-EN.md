@@ -30,8 +30,10 @@ Mobile UI Design (Sketch). Basic 3D modeling (MODO). Texturing (Substance Painte
 Develop Unity software using C#. Main stream APIs understanding & usage. Written some native plugin for iOS / Android.
 
 ### Awards  
+- **Hunan University HuaZhong HHHackathon Rank #2**
+2018.5 Developed an AR wiki app with object detection and 3d UI with my teammates using ARKit, CoreML, Unity. [GitHub](https://github.com/JustinFincher/AReco) | [News](http://hn.people.com.cn/n2/2018/0528/c336521-31632822-3.html)  
 - **IKEA IKODE@SHANGHAI Hackathon Rank #1**    
-2018.4 Developed a app helping people assemble their furniture, using Unity & ARKit. [GitHub](https://github.com/hACKbUSTER/IKEA-Maker)    
+2018.4 Developed a app helping people assemble their furniture with my hACKbUSTER teammates, using Unity & ARKit. [GitHub](https://github.com/hACKbUSTER/IKEA-Maker)    
 - **i-lab & SegmentFault Shanghai Hackathon Rank #3**  
 2016.10 Developed an information publishing iOS app using the image recognition API from Microsoft Azure with my hACKbUSTER teammates.  [GitHub](https://github.com/hACKbUSTER/ConnectPlusPlus)  
 - **SegmentFault & AngelHack Shenzhen Hackathon Rank #1**  

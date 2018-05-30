@@ -30,6 +30,8 @@ Online Portfolio : [http://portfolio.justzht.com/](http://portfolio.justzht.com/
 使用 C# 开发 Unity 程序，主流的 API 使用，写过 Unity 面向 Android / iOS 的 Native Plugin。  
 
 ### 奖项    
+- **湖南大学华中 HHHackathon Rank #2**
+2018.5 同队友使用 Unity，CoreML 和 ARKit 开发了一款三维维基百科 [GitHub 地址](https://github.com/JustinFincher/AReco) | [新闻链接](http://hn.people.com.cn/n2/2018/0528/c336521-31632822-3.html)  
 - **宜家 IKODE@SHANGHAI Hackathon Rank #1**    
 2018.4 同队友使用 Unity 和 ARKit 开发了一款便捷安装家具的软件 [GitHub 地址](https://github.com/hACKbUSTER/IKEA-Maker)    
 - **云赛空间 SegmentFault Shanghai Hackathon Rank #3**    
