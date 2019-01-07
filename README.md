@@ -68,11 +68,11 @@ Online Portfolio : [http://portfolio.justzht.com/](http://portfolio.justzht.com/
 (有很多 详见 [Portfolio](http://portfolio.justzht.com/)，[GitHub](https://github.com/JustinFincher)，[App Store](https://itunes.apple.com/cn/developer/haotian-zheng/id981803173?mt=8)，[Play Store](https://play.google.com/store/apps/dev?id=5201975025990666617) 和 [itch.io](https://justzht.itch.io/)。个人博客上也会发布一些未开源／未发布的项目进展。)  
 
 - **Skyline**   
-2018.1 Android 项目，基于 Mapbox & Unity 的动态壁纸，曾于 Google Play 美国 App & Games 总榜前十连续一周（数据源 AppAnnie，2018.1.19 - 2018.1.27），被 THE VERGE，ANDROID AUTHORITY，LIFEHACKER 报道。[Play Store 地址](https://play.google.com/store/apps/details?id=com.JustZht.Skyline) | [Landing Page](https://justinfincher.github.io/ProjectSkylineLandingWebGL/)  
+2018.1 Android 项目，基于 Mapbox & Unity 的动态壁纸，曾于 Google Play 美国 App & Games 总榜前十连续一周（数据源 AppAnnie，2018.1.19 - 2018.1.27），被 THE VERGE，ANDROID AUTHORITY，LIFEHACKER 报道。[Play Store 地址](https://play.google.com/store/apps/details?id=com.JustZht.Skyline) | [Landing Page](https://justinfincher.github.io/ProjectSkylineLandingWebGL/) | [The Verge](https://www.theverge.com/circuitbreaker/2018/1/20/16909558/skyline-android-app-wallpaper-live-map-location)    
 - **Board For GitHub**   
 2017.4 macOS 项目，于 2017.05.25 在 Product Hunt 上排列第四位。[Store 地址](https://justinfincher.github.io/BoardForGitHub-Landing/) | [GitHub](https://github.com/JustinFincher/BoardForGitHub)
 - **Lonely Planet**   
-2016.12 Unity 项目，展示了自己基于 Shader 的 LibNoise 移植库。通过移植到 GPU 并行运行，将 2K 分辨率的高程图生成速度相比同世代 CPU 加速了 50 倍。[App Store 地址](https://itunes.apple.com/cn/app/lonely-planet-procedurally/id1177530091?mt=8) | [Play Store 地址](https://play.google.com/store/apps/details?id=com.JustZht.LonelyPlanet)
+2016.12 Unity 项目，展示了自己基于 Shader 的 LibNoise 移植库。通过移植到 GPU 并行运行，将 2K 分辨率的高程图生成速度相比同世代 CPU 加速了 50 倍。[App Store 地址](https://itunes.apple.com/cn/app/epoch-core/id1177530091?mt=8) | [Play Store 地址](https://play.google.com/store/apps/details?id=com.JustZht.LonelyPlanet)
 - **Contributions For GitHub**   
 2016.10 iOS 项目，提供了今日挂件和 Apple Watch App。于 2016.11.22 在 Product Hunt 上排列第四位。[App Store 地址](https://itunes.apple.com/us/app/contributions-for-github/id1153432612?mt=8) | [GitHub](https://github.com/JustinFincher/GitHubContributionsiOS)
 - **Project Fragment**   
