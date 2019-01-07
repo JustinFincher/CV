@@ -66,17 +66,17 @@ h6 {
 h1 {
 	font-size: 3.1625rem;
 	line-height: 1.125;
-	margin: 3rem 0 1rem 0;
+	margin: 2rem 0 2rem 0;
 }
 
 h2 {
 	font-size: 1.99375rem;
-	margin: 2rem 0 1rem 0;
+	margin: 1.5rem 0 1.0rem 0;
 }
 
 h3 {
 	font-size: 1.4125rem;
-	margin: 1.5rem 0;
+	margin: 0.6rem 0;
 }
 
 h4,
@@ -87,25 +87,25 @@ h6 {
 
 h4 {
 	font-size: 1.2rem;
-	margin: 1.0rem 0;
+	margin: 0.5rem 0;
 }
 
 h5 {
 	font-size: 1.1rem;
-	margin: 0.8rem 0rem;
+	margin: 0.4rem 0rem;
 }
 
 h6 {
 	font-size: 1rem;
-	margin: 0.6rem 0rem;
+	margin: 0.3rem 0rem;
 }
 
 p,
 ol,
 ul {
-	font-size: 1rem;
+	font-size: 1.0rem;
 	line-height: 1.375;
-	margin: 1rem 0;
+	margin: 0.2rem 0;
 	font-weight: 300;
 }
 
