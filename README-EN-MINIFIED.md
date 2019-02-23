@@ -3,7 +3,7 @@ Indie app & game developer who was born in 1997.
 
 - Email Address: [**justzht@gmail.com**](mailto:justzht@gmail.com)   
 - Phone: [**+86 18556572637 (China Mainland)**](tel:+86-185-5657-2637) | [**+1 (469) 751-2468 (US)**](tel:+1-469-751-2468)  
-- Links: [**Personal Website**](https://fincher.im/) | [**GitHub**](https://github.com/JustinFincher) | [**Dribbble**](https://dribbble.com/JustZht) | [**LinkedIn**](https://www.linkedin.com/in/昊天-郑-6ba0b0b2/) | [**Portfolio**](http://portfolio.justzht.com/) | [**App Store**](https://itunes.apple.com/cn/developer/haotian-zheng/id981803173?mt=8) | [**Play Store**](https://play.google.com/store/apps/dev?id=5201975025990666617) | [**itch.io**](https://justzht.itch.io/).  
+- Links: [**Website**](https://fincher.im/) | [**GitHub @JustinFincher**](https://github.com/JustinFincher) | [**Dribbble @JustZht**](https://dribbble.com/JustZht) | [**LinkedIn**](https://www.linkedin.com/in/昊天-郑-6ba0b0b2/) | [**Portfolio**](http://portfolio.justzht.com/) | [**App Store**](https://itunes.apple.com/cn/developer/haotian-zheng/id981803173?mt=8) | [**Play Store**](https://play.google.com/store/apps/dev?id=5201975025990666617) | [**itch.io**](https://justzht.itch.io/).  
 
 ### Skills
 - **Programming Language**: Objective-C, C#, Java, Ruby, JavaScript
@@ -14,7 +14,7 @@ Indie app & game developer who was born in 1997.
 - [**RCT Studio**](https://rct-studio.com) 2018.9 - 2019.1 as Chief Engineer
 	- Provided an idea for handling storyline boundaries in interactive movie telling that is in pattern similar to occlusion portal in graphic systems.
 	- Wrote demos for the movie script parser using Unity and Google Cloud Natural Language API.
-- [**RavenTech**](https://raventech.cn/home) **&** [**Baidu**](https://www.baidu.com) 2016.4 - 2017.8 as Growth Hacker Intern. 
+- [**RavenTech**](https://raventech.cn/home) **&** [**Baidu**](https://www.baidu.com) 2016.4 - 2017.8 as Growth Hacker Intern
 	- Created and maintained Unity codebase and internal tools. Refactored C# code with UniRx (Reactive C#) for the better readability & usability.
 	- Built Android native plugins for Unity to handle two-way commutations for state sync & audio data visualization, and providing Android UI access in bitmap format to the Unity client through JNI & native texture pointer.
 	- Completed a gesture and gaze based interaction system in the VR app, with curved UI shader and socket forwarding of Leap Motion data.
@@ -39,11 +39,11 @@ Indie app & game developer who was born in 1997.
 - [**GitHub Contributions**](https://itunes.apple.com/us/app/contributions-for-github/id1153432612?mt=8): iOS & watchOS app for viewing GitHub commit graph in 2D/3D perspective.
 
 ### Awards  
-- [**Apple WWDC 2018 Scholarship**](https://github.com/JustinFincher/WWDC-18-Scholarship-Project) 2018.5
-- [**Hunan University HuaZhong HHHackathon Rank #2**](https://github.com/JustinFincher/AReco) 2018.5 
-- [**IKEA IKODE@SHANGHAI Hackathon Rank #1**](https://github.com/hACKbUSTER/IKEA-Maker) 2018.4 
-- [**i-lab & SegmentFault Shanghai Hackathon Rank #3**](https://github.com/hACKbUSTER/ConnectPlusPlus) 2016.10
-- [**SegmentFault & AngelHack Shenzhen Hackathon Rank #1**](https://github.com/hACKbUSTER/ProjectDaVinci) 2016.5
-- [**Uber China Hackathon  Rank #3**](https://github.com/hACKbUSTER/UberGuide-iOS) 2016.1
-- [**Epoch: China Art Hackathon Rank #2**](https://github.com/hACKbUSTER/Renaissance) 2015.12
-- [**SegmentFault Beijing Hackathon Rank #1**](https://github.com/hACKbUSTER/FixPlusPlus) 2015.10
+- [**Apple WWDC 2018 Scholarship**](https://github.com/JustinFincher/WWDC-18-Scholarship-Project)
+- [**Hunan University HuaZhong HHHackathon Rank #2**](https://github.com/JustinFincher/AReco)
+- [**IKEA IKODE@SHANGHAI Hackathon Rank #1**](https://github.com/hACKbUSTER/IKEA-Maker)
+- [**i-lab & SegmentFault Shanghai Hackathon Rank #3**](https://github.com/hACKbUSTER/ConnectPlusPlus)
+- [**SegmentFault & AngelHack Shenzhen Hackathon Rank #1**](https://github.com/hACKbUSTER/ProjectDaVinci)
+- [**Uber China Hackathon  Rank #3**](https://github.com/hACKbUSTER/UberGuide-iOS)
+- [**Epoch: China Art Hackathon Rank #2**](https://github.com/hACKbUSTER/Renaissance)
+- [**SegmentFault Beijing Hackathon Rank #1**](https://github.com/hACKbUSTER/FixPlusPlus)
