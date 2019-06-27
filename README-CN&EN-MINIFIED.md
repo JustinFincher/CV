@@ -1,4 +1,4 @@
-##郑昊天 ZHENG HAOTIAN
+## 郑昊天 ZHENG HAOTIAN
 Indie app & game developer who was born in 1997.
 
 - Email Address: [**justzht@gmail.com**](mailto:justzht@gmail.com)   
@@ -48,7 +48,7 @@ Indie app & game developer who was born in 1997.
 >
 >
 
-##郑昊天 ZHENG HAOTIAN
+## 郑昊天 ZHENG HAOTIAN
 独立软件及游戏开发者，97 年生。
 
 - 邮箱地址：[**justzht@gmail.com**](mailto:justzht@gmail.com)   
