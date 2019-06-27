@@ -1,84 +1,102 @@
-# 简历
+> PLEASE VISIT [WEB](https://fincher.im/CV.html) / [Markdown](README-CN&EN-MINIFIED.md) / [PDF](https://fincher.im/Haotian%20Zheng.pdf) FOR THE LASTEST ENGLISH VERSION  
+> 请访问最新版本的 [网页](https://fincher.im/CV.html) / [Markdown](README-CN&EN-MINIFIED.md) / [PDF](https://fincher.im/Haotian%20Zheng.pdf) 中文版
 
-> For english version, please visit [README-EN.md](README-EN.md)  
-> PDF 下载: [https://fincher.im/CV.pdf](https://fincher.im/CV.pdf)
+---
 
-### 郑昊天
-iOS & Unity Developer, amateur UI Designer  
-个人网站 : [fincher.im](https://fincher.im/)  
-邮件地址 : [justzht@gmail.com](mailto:justzht@gmail.com)   
-手机号码 : [+86 18556572637 (大陆)](tel:+86-185-5657-2637) | [+1 (469) 751-2468 (US)](tel:+1-469-751-2468)  
+##郑昊天 ZHENG HAOTIAN
+Indie app & game developer who was born in 1997.
 
-### 简介
-男，生于1997年。中南大学计算机科学专业延期毕业中（2014-2018）。  
-GitHub : [@JustinFincher](https://github.com/JustinFincher)  
-Dribbble : [@JustZht](https://dribbble.com/JustZht)  
-LinkedIn : [@郑昊天 (Justin Fincher)](https://www.linkedin.com/in/昊天-郑-6ba0b0b2/)  
-Online Portfolio : [http://portfolio.justzht.com/](http://portfolio.justzht.com/)  
+- Email Address: [**justzht@gmail.com**](mailto:justzht@gmail.com)   
+- Phone: [**+86 18556572637 (China Mainland)**](tel:+86-185-5657-2637) | [**+1 (469) 751-2468 (US)**](tel:+1-469-751-2468)  
+- Links: [**Website**](https://fincher.im/) | [**GitHub @JustinFincher**](https://github.com/JustinFincher) | [**Dribbble @JustZht**](https://dribbble.com/JustZht) | [**LinkedIn**](https://www.linkedin.com/in/昊天-郑-6ba0b0b2/) | [**Portfolio**](http://portfolio.justzht.com/) | [**App Store**](https://itunes.apple.com/cn/developer/haotian-zheng/id981803173?mt=8) | [**Play Store**](https://play.google.com/store/apps/dev?id=5201975025990666617) | [**itch.io**](https://justzht.itch.io/).  
 
-### 技能  
-- **Cocoa Development**  
-使用 Objective-C 进行 iOS / Mac 软件开发，掌握主流 API & 框架使用。**2018 年苹果 WWDC 奖学金获得者**。  
+### Skills
+- **Programming Language**: Objective-C, C#, Java, Ruby, JavaScript
+- **Framework & Tool Usage**: Cocoa Touch, Unity, Android, Vue.js, Git, Sketch, Adobe AE
+- **Spoken Language**: Chinese, English
 
-- **Unity Development**  
-使用 C# 开发 Unity 程序，主流的 API 使用，写过 Unity 面向 Android / iOS 的 Native Plugin。 
+### Experience
+- [**RCT Studio**](https://rct-studio.com) 2018.9 - 2019.1 as Chief Engineer
+	- Wrote demos for the movie script parser using Unity and Google Cloud Natural Language API, helped RCT to be a part of the Y Combinator W19 batch.
+- [**Baidu**](https://www.baidu.com) **&** [**RavenTech**](https://raventech.cn/home) 2016.4 - 2017.8 as Growth Hacker Intern
+	- Created and maintained Unity codebase and internal tools. Refactored C# code with UniRx (Reactive C#) for the better readability & usability.
+	- Built Android native plugins for Unity to handle two-way commutations for state sync & audio data visualization, and providing Android UI access in bitmap format to the Unity client through JNI & native texture pointer.
+	- Completed a gesture and gaze based interaction system in the VR app, with curved UI shader and socket forwarding of Leap Motion data.
+	- Built several small iOS apps with various frameworks.  
+- [**FinGameWorks**](https://fingame.works) 2015 - Present as Indie Developer
+	- Shipped macOS, iOS and Android apps. Featured by The Verge, LifeHacker & TNW. Some of them were Product Hunt daily #4 and Google Play most paid rank #1 in the US. 
+	- Provided several solutions for integrating Unity view into existing iOS projects when doing outsourcing projects. The first is to use method swizzling and build script to achieve UIApplicationDelegate implementation forwarding from iOS to Unity. The second is to use ruby script to modify exported Unity project and turns it into a static framework.
+	- Worked out the solution to make Unity instance as a live wallpaper for Android, Mac and PC platforms, respectively using Activity Wrapper, NSWindow and User32 hacks.
+	- Ported libNoise to cg to use as a Unity shader, making heightmap generation of my space simulator game 50 times faster than CPU only based solution.
 
-- **Interface Design & Digital Art**  
-移动端软件界面基础设计（Sketch），基础三维建模（MODO） & 贴图（Substance Painter）。   
+### Education
+- [**Central South University**](http://www.csu.edu.cn/) 2014-2019  
+	- Bachelor of Engineering in Computer Science.
+	- Outstanding graduate thesis award for the final year project.
+	- Used to teach iOS development basics as a tutor in the school funded iOS club.
 
-### 奖项    
-- **湖南大学华中 HHHackathon Rank #2**
-2018.5 同队友使用 Unity，CoreML 和 ARKit 开发了一款三维维基百科 [GitHub 地址](https://github.com/JustinFincher/AReco) | [新闻链接](http://hn.people.com.cn/n2/2018/0528/c336521-31632822-3.html)  
-- **宜家 IKODE@SHANGHAI Hackathon Rank #1**    
-2018.4 同队友使用 Unity 和 ARKit 开发了一款便捷安装家具的软件 [GitHub 地址](https://github.com/hACKbUSTER/IKEA-Maker)    
-- **云赛空间 SegmentFault Shanghai Hackathon Rank #3**    
-2016.10 同队友使用微软图像识别 API 开发了一款 iOS 上的信息发布软件 [GitHub 地址](https://github.com/hACKbUSTER/ConnectPlusPlus)    
-- **SegmentFault AngelHack Shenzhen Hackathon Rank #1**    
-2016.5 同队友使用 Framework7 及讯飞 SDK 开发了一款 iOS 上的原型工具 [GitHub 地址](https://github.com/hACKbUSTER/ProjectDaVinci) | [新闻链接](https://segmentfault.com/a/1190000005656846)  
-- **Uber China Hackathon  Rank #3**      
-2016.1 同队友开发了一款使用 Uber API 帮助游客游览城市的应用 [GitHub 地址](https://github.com/hACKbUSTER/UberGuide-iOS) | [新闻链接](https://segmentfault.com/a/1190000004372053)    
-- **Epoch: China Art Hackathon Rank #2**  
-2015.12 在中国美术学院跨媒体藝術学院网路社会研究所开展的 Hackathon 中 同队友使用 SceneKit 开发了一个音乐可视化软件 [GitHub 地址](https://github.com/hACKbUSTER/Renaissance)    
-- **SegmentFault Beijing Hackathon Rank #1**  
-2015.10 同队友使用 Unity 和 高通 AR SDK 开发了一款便于维修 Macbook 的现实增强软件 [GitHub 地址](https://github.com/hACKbUSTER/FixPlusPlus) | [新闻链接](https://segmentfault.com/a/1190000003920404)  
+### Projects
+- [**Skyline Live Wallpaper**](https://play.google.com/store/apps/details?id=com.JustZht.Skyline): Live wallpaper based on Mapbox & Unity providing a similar experience to Google Pixel's. Google Play US most paid rank #1 on 2018.1.22.
+- [**Epoch Core**](https://itunes.apple.com/us/app/epoch-core/id1177530091?mt=8): Procedurally generated planets tech demo made with Unity.
+- [**Artwall**](https://geo.itunes.apple.com/us/app/artwall/id1178151992?mt=12&app=apps): macOS menubar app for saving ArtStation images with multi-monitor support.
+- [**GitHub Contributions**](https://itunes.apple.com/us/app/contributions-for-github/id1153432612?mt=8): iOS & watchOS app for viewing GitHub commit graph in 2D/3D perspective.
 
-### 项目经验
-#### 公司项目 
-##### RCT Studio
-- **Interactive Movie Development @ RCT** 
-2018.9 - 2019.1 在 RCT 作为 Co-founder & Chief Engineer 负责其可交互电影项目及剧本解析软件的基础架构，帮助 RCT 在 18 年底入围 YC 创业营 19W。
+### Awards  
+- [**Apple WWDC 2018 Scholarship**](https://github.com/JustinFincher/WWDC-18-Scholarship-Project)
+- [**Hunan University HuaZhong HHHackathon Rank #2**](https://github.com/JustinFincher/AReco)
+- [**IKEA IKODE@SHANGHAI Hackathon Rank #1**](https://github.com/hACKbUSTER/IKEA-Maker)
+- [**SegmentFault & AngelHack Shenzhen Hackathon Rank #1**](https://github.com/hACKbUSTER/ProjectDaVinci)
+- [**Uber China Hackathon  Rank #3**](https://github.com/hACKbUSTER/UberGuide-iOS)
+- [**Epoch: China Art Hackathon Rank #2**](https://github.com/hACKbUSTER/Renaissance)
+- [**SegmentFault Beijing Hackathon Rank #1**](https://github.com/hACKbUSTER/FixPlusPlus)
 
-##### 百度
-- **Unity Project Code Refactoring @ Baidu Home Intelligence Department**  
-2017.3 - 2017.8 在百度智能家居部门负责 Unity 项目的重构及后续开发。具体内容：动画状态机，响应式 C# （UniRx），RN 原生 UI 界面的封装。
+---
 
-##### 渡鸦科技
-- **Audio Visualization @ RavenTech**   
-2016.7 - 2016.9 基于 Unity & Android 的音频可视化模块开发，已投放至 Raven H-1 盒子。具体内容：Unity Assembly 热更新，Audio Source 鼓点侦测以及和 Android 原生的通讯。
-- **VR Research @ RavenTech**   
-2016.5 RavenLab 基于 Unity & GearVR 的研究。我们的成果称之为 Project Argos，一个提供了虚拟桌面体验并带有智能 AI 助理的 VR app。我写了以下模块的部分代码：Leap Motion C# SDK 数据通过 Socket 的传输，基于 Tab 切换的 VR 多程序 UI 系统，一个 VR 远程桌面投影客户端，一个 VR 网页浏览器。  
+##郑昊天 ZHENG HAOTIAN
+独立软件及游戏开发者，97 年生。
 
-##### 外包项目
-- **三维展示软件**  
-2017.7 外包项目，将 Unity 集成到 iOS。通过 Method Swizzling 和 Build Script 进行非侵入式集成。Unity Shader 编写，iOS GPUImage Shader 编写，设置 Asset Bundle。 [App Store 地址](https://itunes.apple.com/cn/app/%E7%95%AA%E5%8D%B0/id1289058317?mt=8)
-- **医和本初**   
-2016.11  (已下架) 外包项目，iOS Hybrid App，通过 JS 和 WebKit 之间互相通讯实现业务。
+- 邮箱地址：[**justzht@gmail.com**](mailto:justzht@gmail.com)   
+- 手机号码：[**+86 18556572637 (中国大陆)**](tel:+8618556572637) | [**+1 (469) 751-2468 (美国)**](tel:+1-469-751-2468)  
+- 相关链接：[**个人网站**](https://fincher.im/) | [**GitHub @JustinFincher**](https://github.com/JustinFincher) | [**Dribbble @JustZht**](https://dribbble.com/JustZht) | [**LinkedIn**](https://www.linkedin.com/in/昊天-郑-6ba0b0b2/) | [**作品集**](http://portfolio.justzht.com/) | [**App Store**](https://itunes.apple.com/cn/developer/haotian-zheng/id981803173?mt=8) | [**Play Store**](https://play.google.com/store/apps/dev?id=5201975025990666617) | [**itch.io**](https://justzht.itch.io/).  
 
-#### 个人项目
-(有很多 详见 [Portfolio](http://portfolio.justzht.com/)，[GitHub](https://github.com/JustinFincher)，[App Store](https://itunes.apple.com/cn/developer/haotian-zheng/id981803173?mt=8)，[Play Store](https://play.google.com/store/apps/dev?id=5201975025990666617) 和 [itch.io](https://justzht.itch.io/)。个人博客上也会发布一些未开源／未发布的项目进展。)  
+### 技能
+- **编程语言**：Objective-C，C#，Java，Ruby，JavaScript
+- **框架及工具**：Cocoa Touch，Unity，Android，Vue.js，Git，Sketch，Adobe AE
+- **口语及书写**：中文，英文
 
-- **Skyline**   
-2018.1 Android 项目，基于 Mapbox & Unity 的动态壁纸，曾于 Google Play 美国 App & Games 总榜前十连续一周（数据源 AppAnnie，2018.1.19 - 2018.1.27），被 THE VERGE，ANDROID AUTHORITY，LIFEHACKER 报道。[Play Store 地址](https://play.google.com/store/apps/details?id=com.JustZht.Skyline) | [Landing Page](https://justinfincher.github.io/ProjectSkylineLandingWebGL/) | [The Verge](https://www.theverge.com/circuitbreaker/2018/1/20/16909558/skyline-android-app-wallpaper-live-map-location)    
-- **Board For GitHub**   
-2017.4 macOS 项目，于 2017.05.25 在 Product Hunt 上排列第四位。[Store 地址](https://justinfincher.github.io/BoardForGitHub-Landing/) | [GitHub](https://github.com/JustinFincher/BoardForGitHub)
-- **Lonely Planet**   
-2016.12 Unity 项目，展示了自己基于 Shader 的 LibNoise 移植库。通过移植到 GPU 并行运行，将 2K 分辨率的高程图生成速度相比同世代 CPU 加速了 50 倍。[App Store 地址](https://itunes.apple.com/cn/app/epoch-core/id1177530091?mt=8) | [Play Store 地址](https://play.google.com/store/apps/details?id=com.JustZht.LonelyPlanet)
-- **Contributions For GitHub**   
-2016.10 iOS 项目，提供了今日挂件和 Apple Watch App。于 2016.11.22 在 Product Hunt 上排列第四位。[App Store 地址](https://itunes.apple.com/us/app/contributions-for-github/id1153432612?mt=8) | [GitHub](https://github.com/JustinFincher/GitHubContributionsiOS)
-- **Project Fragment**   
-2016.05 Rails 项目，上网导航页。[访问网站](http://start.justzht.com/boarding/1)
+### 工作经历
+- [**RCT Studio**](https://rct-studio.com) 2018.9 - 2019.1 担任首席工程师
+	- 使用 Unity 及 Google 的自然语言处理 API 为电影剧本解析项目编写原型，帮助 RCT 入围 Y Combinator W19 创投加速器。
+- [**百度**](https://www.baidu.com) **&** [**渡鸦科技**](https://raventech.cn/home) 2016.4 - 2017.8 担任增长黑客实习生
+	- 创建并维护 Unity 项目及关联的内部工具（文档生成，Unity 编辑器视窗插件，打包管理）。使用 UniRx（及 Reactive C#）重构 C# 项目以得到更好的可读性及可用性。  
+	- 为 Unity 和 Android 之间的双向通讯编写了原生插件，以便于状态同步，回调管理及音频可视化数据的传输。为在 Unity 端能得到 Android 视图的贴图表示或原生解码所得的贴图数据的直接访问，编写了基于 JNI 和 原生贴图指针的传输与访问方案。
+	- 完成了基于手势和注视的 VR 内交互系统，同时编写了适用于 VR 系统的卷曲 UI 效果着色器，为 Leap Motion 数据编写了内网 Socket 转发功能。
+	- 使用多种框架完成了一些较小的验证性 iOS 软件，封装了一些 iOS 控件。
+- [**FinGameWorks**](https://fingame.works) 2015 - 当前 担任独立开发者
+	- 发行过 macOS，Android 和 iOS 软件，作品曾上榜于 Product Hunt 日榜第四，及 Google Play 美国区软件总最多购买榜第一，被 The Verge，LifeHacker，TNW 报道。
+	- 为在现有 iOS 项目中集成 Unity 视图的外包需求提供了几种解决方案。方案一为使用 method swizzling 及 build script 对 Unity 导出 iOS 项目的 UIApplicationDelegate 方法实现进行替换，使之使用 iOS 项目的实现内容。方案二为编写 ruby 脚本对 Unity 导出 iOS 的项目进行编辑，生成目标为 static framework 的 target，以减少 Unity 素材混杂在 iOS 工程内的区分及更新难度。
+	- 基于调用 Activity，NSWindow 和 User32 的方法绕过限制并响应对应的生命周期事件，提供了一套能将 Unity 实例作为可交互动态壁纸运行于 Android，macOS 和 Windows 平台上的实现方案。
+	- 将 libNoise 库的主要功能移植到 cg 语言上以作为着色器用于 Unity 项目中，从而将个人开发的太空游戏中的基于过程生成噪声的高度图生成速度相比纯 CPU 方案加速了 50 倍。
+	
+### 教育经历
+- [**中南大学**](http://www.csu.edu.cn/) 2014-2019 
+	- 计算机科学专业学士。
+	- 获得优秀毕业论文奖。
+	- 曾在学校和苹果公司建立的 iOS Club 中教授 iOS 开发基础。
+	
+### 个人项目
+- [**Skyline Live Wallpaper**](https://play.google.com/store/apps/details?id=com.JustZht.Skyline)：基于 Unity 和 Mapbox 的动态壁纸，提供了 Pixel 系列设备官方自带 B-Reel LWP 的近似功能，2018 年一月下旬 Google Play 美国区软件总榜第一。
+- [**Epoch Core**](https://itunes.apple.com/us/app/epoch-core/id1177530091?mt=8)：基于 Unity 开发的过程生成星球系统技术原型，展示了基于噪声图的地形生成系统。
+- [**Artwall**](https://geo.itunes.apple.com/us/app/artwall/id1178151992?mt=12&app=apps)：提供了多显示器支持的用于从 ArtStation 下载图片的 macOS menubar 软件。
+- [**GitHub Contributions**](https://itunes.apple.com/us/app/contributions-for-github/id1153432612?mt=8)：能给以 2D / 3D 视图展示 GitHub 提交记录图的 iOS & watchOS 软件。
 
-### 社会活动
-- **中南大学 iOS 实验室 讲师**   
-2016.9 - 2017.2 在中南大学 iOS 实验室为 20-30 位同学教学 iOS 软件开发。涉及 Objective-C，基础的 UI 控件，MVC，NSUserDefault，UITableView 等。
+
+### 奖项  
+- [**苹果 WWDC 2018 奖学金**](https://github.com/JustinFincher/WWDC-18-Scholarship-Project)
+- [**湖南华中 HHHackathon 第二名**](https://github.com/JustinFincher/AReco)
+- [**宜家 IKODE@上海 Hackathon 第一名**](https://github.com/hACKbUSTER/IKEA-Maker)
+- [**SegmentFault & AngelHack 深圳 Hackathon 第一名**](https://github.com/hACKbUSTER/ProjectDaVinci)
+- [**优步中国 Hackathon 第三名**](https://github.com/hACKbUSTER/UberGuide-iOS)
+- [**中国美院 Hackathon 第二名**](https://github.com/hACKbUSTER/Renaissance)
+- [**SegmentFault 北京 Hackathon 第一名**](https://github.com/hACKbUSTER/FixPlusPlus)
 
