@@ -32,8 +32,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
 
 %-------------------------
 % Custom commands
@@ -54,6 +54,15 @@
   \vspace{-0pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2
+    \end{tabular*}\vspace{-0pt}
+    #3
+    \vspace{-6pt}
+}
+
+\newcommand{\resumeSubheadingWithTime}[3]{
+  \vspace{-0pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-0pt}
     #3
     \vspace{-6pt}
@@ -86,25 +95,25 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\Large HAOTIAN ZHENG} \\
   Website : \href{https://haotianzheng.com/}{https://haotianzheng.com/} & Email : \href{mailto:justzht@gmail.com}{justzht@gmail.com} \\
-  Portfolio : \href{https://portfolio.justzht.com/}{https://portfolio.justzht.com/} & Mobile : +1-469-751-2468 (US) /  +86-185-5657-2637 (P.R.C.)  \\
+  Portfolio : \href{https://portfolio.justzht.com/}{https://portfolio.justzht.com/} & Mobile : +86-185-5657-2637 (P.R.C.) / +1-469-751-2468 (US)\\
 \end{tabular*}
 
 
 %-----------EDUCATION-----------------
-\section{Education}
+\section{Education Background}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Central South University}{Changsha, China}
-      {Bachelor of Engineering, Computer Science and Technology (conferred in June, 2019)}{Sept. 2014 -- Jun. 2018}
+      {Bachelor of Engineering in Computer Science and Technology (conferred in June 2019)}{Sept. 2014 -- June 2018}
       \resumeItemListStart
-      	\resumeItem{Course}
-          {Algorithm Analysis and Design, Data Structure, Compiler Principle, Network, Object-Oriented Programming (C++), Java Language and System Design, Human-Computer Interaction, Artificial Intelligence, Pattern Recognition and Machine Learning, Computer Vision, Computer Graphics, Discrete Mathematics, etc}
+      	\resumeItem{Coursework}
+          {Computer Graphics, Human-Computer Interaction, Algorithm Analysis and Design, Data Structure, Object-Oriented Programming (C++), Java Language and System Design, Artificial Intelligence, Pattern Recognition and Machine Learning, Computer Vision, Compiler Principle, Computer Network, Discrete Mathematics, etc}
         \resumeItem{Programming Language}
-          {Objective-C (1100+ stars on GitHub, top 100 in China), C\#, Java, JavaScript, Swift, Ruby}
+          {Objective-C (1100+ stars on GitHub, top 100 in China in this category), C\# (40k LOC), Java (20k LOC), JavaScript, Swift, Ruby}
         \resumeItem{Framework \& Skill}
           {iOS, Android, Unity, Vue.js, Ruby On Rails, git, Adobe Suite, Sketch}
         \resumeItem{Honor}
-          {Outstanding Collegiate Dissertation on Graduation Project, CSU}
+          {Outstanding Collegiate Dissertation on Graduation Project (\textit{GIS Planet System Design and Implementation using Unity Engine}), CSU}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -122,7 +131,7 @@
 		\resumeItem{Development}
           {Led the development of the interactive VR movie demo in Unity and the pipeline for movie scripts based workflows, including a REPL that transforms movie scripts into our in-house definition format and generates corresponding scene graphs in 3D applications like Unity3D or Cinema4D.}
         \resumeItem{Collaboration}
-          {Working with other founders closely in order for the company to grow and raise fund. Projects of rct studio, now a YC W19 alumnus, were presented at the YC Demo Day and featured by TechCrunch.}
+          {Cooperated closely with other founders for the company to grow and raise funds. Presented projects of rct studio, now a YC W19 alumnus, at the YC Demo Day (featured by TechCrunch).}
       \resumeItemListEnd
       
     \resumeSubheading
@@ -130,9 +139,9 @@
       {Unity Developer Intern in Smart Hardware BU}{Mar. 2017 - Dec. 2017}
       \resumeItemListStart
         \resumeItem{Refactoring}
-          {Rewrote the code base of the smart speaker I previously worked on at RavenTech (bought by Baidu) using Reactive Pattern (UniRx) for better readability and stability.}
+          {Rewrote the code base of the smart speaker I previously worked on at RavenTech (later brought by Baidu) using Reactive Pattern (UniRx) for better readability and stability.}
 		\resumeItem{Maintenance}
-          {Wrote internal CI/CD tools in Unity Editor to automate documentation generation and build testing.}
+          {Wrote internal CI/CD tools in Unity to automate documentation generation and build testing.}
       \resumeItemListEnd
 
 	\resumeSubheading
@@ -140,46 +149,46 @@
       {Full-stack Software Engineer Intern in RavenLab}{Mar. 2016 - Sept. 2016}
       \resumeItemListStart
         \resumeItem{Prototyping}
-          {Worked on various projects to validate internal ideas, including some iOS apps and a Unity GearVR product with custom built native plugins for native messaging and shared bitmap access, Leap Motion support with socket forwarding and a gaze based VR GUI system. }
+          {Supported in various projects to validate internal ideas, including some iOS apps and a Unity GearVR product with custom built native plugins for native messaging and shared bitmap access, Leap Motion support with socket forwarding and a gaze based VR GUI system. }
         \resumeItem{Development}
-          {Responsible for the audio visualization module on the Raven H-1 smart speaker graphical frontend using FFT calculation in Android and full-screen shaders in Unity.}
+          {Took charge of the audio visualization module on the Raven H-1 smart speaker graphical frontend using FFT calculation in Android and full-screen shaders in Unity.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------------
-\section{Personal Portfolio (FinGameWorks)}
+\section{Indie Portfolio (FinGameWorks)}
   \resumeSubHeadingListStart
-  	\resumeSubheadingMininal{Node Editor Framework}
+  	\resumeSubheadingWithTime{Node Editor Framework}{Mar. 2019 - June 2019}
 	\resumeItemListStart
         \resumeItem{Research}
           {Designed and implemented a multi-purpose node editor GUI framework that can be used for visual scripting or storyline flow chart design.}
         \resumeItem{Application}
-          {Initial framework was written in Objective-C for the WWDC 19 scholarship submission project (\underline{\href{https://github.com/JustinFincher/WWDC19Playground}{Creative Shader Programming}}). Later on the framework was ported to C\# to be used in a board game engine I am still working on.}
+          {Submitted initial Objective-C based framework for the WWDC 19 Scholarship Project (\underline{\href{https://github.com/JustinFincher/WWDC19Playground}{Creative Shader Programming}}). Ported the framework to C\# for further application in a board game engine I am working on.}
       \resumeItemListEnd
       
-    \resumeSubheadingMininal{Live Wallpaper Series}
+    \resumeSubheadingWithTime{Live Wallpaper Series}{Dec. 2017 - Feb. 2019}
 	\resumeItemListStart
         \resumeItem{Research}
-          {Studied the internal of Unity engine and exploited the player to function as a live wallpaper on Android, macOS and Windows platforms, respectively using ApplicationContext, NSWindow and User32 API hacks.}
+          {Studied the internal of Unity engine and exploited the player to function as a live wallpaper on Android, macOS and Windows platforms, respectively using ApplicationContext, NSWindow, and User32 API hacks.}
         \resumeItem{Application}
-          {\underline{\href{https://getskyline.app/}{Skyline}} is an Android live wallpaper with global 3D terrain. It was the most paid app on Google Play (US region, 2018.1.22) and featured by tech sites including The Verge, LifeHacker, Android Authority and The Next Web. Also \underline{\href{https://portfolio.justzht.com/vortexlwp}{Vortex}}, a data-driven live wallpaper that visualize weather, time, and motion.}
+          {\underline{\href{https://getskyline.app/}{Skyline}}, an Android live wallpaper with global 3D terrain which ranked the most paid app on Google Play (US region, Jan. 2018) and was covered by tech sites including The Verge, LifeHacker, Android Authority, and TNW. \underline{\href{https://portfolio.justzht.com/vortexlwp}{Vortex}}, a data-driven live wallpaper that visualizes weather, time, and motion.}
       \resumeItemListEnd
       
-    \resumeSubheadingMininal{Unity Tooling}
+    \resumeSubheadingWithTime{Unity Tooling}{Oct. 2016 - Mar. 2018}
 	\resumeItemListStart
         \resumeItem{Development}
-          {Developed various tools to meet my own needs that Unity itself didn't provide. Worked out several solution to integrate Unity instance into existing iOS projects for my out-sourcing clients, of which (1) involves Objective-C method swizzling and shell scripts to forward the implementation of UIApplicationDelegate from iOS side to Unity side, and (2) utilizes ruby scripts to modify the exported Unity Xcode project and turn it into a static framework or even a CocoaPod dependency.}
+          {Developed various tools to meet my own needs that Unity itself didn't provide. Worked out several solutions to integrate Unity instance into existing iOS projects for my out-sourcing clients, of which (1) involves Objective-C method swizzling and shell scripts to forward the implementation of UIApplicationDelegate from iOS side to Unity side, and (2) utilizes ruby scripts to modify the exported Unity Xcode project and turn it into a static framework or even a CocoaPod dependency.}
       \resumeItemListEnd
       
-    \resumeSubheadingMininal{Procedural Generation}
+    \resumeSubheadingWithTime{Procedural Generation}{Aug. 2016 - July 2018}
 	\resumeItemListStart
         \resumeItem{Research}
-          {Done some work on procedural planet generation in the development stages of \underline{\href{https://portfolio.justzht.com/epochcore}{Epoch Core}} and my final year project (GIS System) in CSU. Ported parts of libNoise to cg language to have parallel noise generation on GPU, making the process of height-map generation 50 times faster than the CPU only based solution.}
+          {Investigated on procedural planet generation in the development stages of \underline{\href{https://portfolio.justzht.com/epochcore}{Epoch Core}} and my final year project (GIS System) in CSU. Ported parts of libNoise to cg language to have parallel noise generation on GPU, making the process of height-map generation 50 times faster than the CPU only based solution.}
       \resumeItemListEnd
 
-	\resumeSubheadingMininal{Indie Development and Open Source}
+	\resumeSubheadingWithTime{Indie Development and Open Source}{Oct. 2015 - Jan. 2019}
 	\resumeItemListStart
 		\resumeItem{Indie Apps}
           {Published a handful of apps on both mobile and desktop platforms, including Product Hunt daily Top 4 \underline{\href{https://github.com/JustinFincher/GitHubContributionsiOS}{GitHub Contributions}}(iOS) and \underline{\href{https://justinfincher.github.io/BoardForGitHub-Landing/}{Board For GitHub}}(macOS).}
@@ -190,23 +199,23 @@
   \resumeSubHeadingListEnd
   
 %
-%--------ACTIVITIES & AWARD------------
-\section{Activities \& Competitions}
+%--------CONFERENCES & SERVICES------------
+\section{Conferences \& Services}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Wacom Connected Ink}{Tokyo, Japan}
       {Session Speaker}{Nov. 2019}
       \resumeItemListStart
         \resumeItem{Presentation}
-          {Built a 3D modeling app using Wacom SDK and ARKit. The app, called 'Air Ink', made it to the final round of Inkathon and we were invited to make a presentation on the Wacom Connected Ink event.}
+          {Built a 3D modeling app called 'Air Ink' with Wacom SDK and ARKit, which reached the final round of Inkathon. Presented technical key points on the Wacom Connected Ink event in Japan.}
       \resumeItemListEnd
       
     \resumeSubheading
       {Apple Worldwide Developers Conference 2018}{San Jose, US}
-      {Scholar}{June. 2018}
+      {Scholar}{June 2018}
       \resumeItemListStart
         \resumeItem{Scholarship}
-          {Submitted a Swift Playground called 'Golf GO', which is a golf game wrote within 1000 lines but provides millions of maps at runtime using procedural algorithm. One of the 350 WWDC winner projects.}
+          {Submitted a Swift Playground called 'Golf GO', a golf game written within 1000 lines but provides millions of maps at runtime using procedural algorithms. Granted as 1/350 WWDC winner projects globally.}
       \resumeItemListEnd
       
 	\resumeSubheading
@@ -219,26 +228,27 @@
       
   \resumeSubHeadingListEnd
 
-\section{Awards \& Honors}
+%---------HONORS & AWARDS--------
+\section{Honors \& Awards}
 \resumeSubHeadingListStart
-  	\resumeSubheadingExtended{2nd place of MSRA \& HNU HH Hackathon}{Changsha, China}{Built an \underline{\href{https://github.com/JustinFincher/AReco}{AR based wiki app}} that analysis the camera feed using object detection model and display virtual information card right on the scanned object.}
-	\resumeSubheadingExtended{1st place of IKODE IKEA Hackathon}{Shanghai, China}
-	{Built an \underline{\href{https://github.com/hACKbUSTER/IKEA-Maker}{AR based guide app}} for assembling IKEA furniture. We ranked the first and were offered the IKEA incubator program.}
-	\resumeSubheadingExtended{1st place of SegmentFault \& AngelHack Hackathon}{Shenzhen, China}
-	{Built an \underline{\href{https://github.com/hACKbUSTER/ProjectDaVinci}{AI voice bot}} that listens voice command and constructs mobile user interface for you.}
-	\resumeSubheadingExtended{3rd place of Uber API Hackathon}{Beijing, China}
+  	\resumeSubheadingExtended{2nd Place for MSRA \& HNU HH Hackathon}{Changsha, China}{Built an \underline{\href{https://github.com/JustinFincher/AReco}{AR based wiki app}} that analyzes the camera feed using object detection model and displays virtual information card right on the scanned object.}
+	\resumeSubheadingExtended{1st Place for IKODE IKEA Hackathon}{Shanghai, China}
+	{Built an \underline{\href{https://github.com/hACKbUSTER/IKEA-Maker}{AR based guide app}} for assembling IKEA furniture and was offered IKEA incubator program.}
+	\resumeSubheadingExtended{1st Place for SegmentFault \& AngelHack Hackathon}{Shenzhen, China}
+	{Built an \underline{\href{https://github.com/hACKbUSTER/ProjectDaVinci}{AI voice bot}} that recognizes voice commands and constructs mobile user interface for users.}
+	\resumeSubheadingExtended{3rd Place for Uber API Hackathon}{Beijing, China}
 	{Developed a \underline{\href{https://github.com/hACKbUSTER/UberGuide-iOS}{companion app}} for Uber travelers using Uber API, chatbot UI and location-based AR.}
-	\resumeSubheadingExtended{2nd place of China Academy of Art Hackathon}{Hangzhou, China}
-	{Developed an \underline{\href{https://github.com/hACKbUSTER/Renaissance}{audio visualization app}} that uses OSC protocol to communicate with Max7 audio composing software.}
-	\resumeSubheadingExtended{1st place of SegmentFault Hackathon}{Beijing, China}
-	{Developed a \underline{\href{https://github.com/hACKbUSTER/FixPlusPlus}{marker based AR app}} using Vuforia that works like an AR version of ifixit.com. The app would recognize different models of MacBook and display 3D arrows pointing the corresponding repair location.}
+	\resumeSubheadingExtended{2nd Place for China Academy of Art Hackathon}{Hangzhou, China}
+	{Developed an \underline{\href{https://github.com/hACKbUSTER/Renaissance}{audio visualization app}} that communicates with Max7 audio composer using OSC protocol.}
+	\resumeSubheadingExtended{1st Place for SegmentFault Hackathon}{Beijing, China}
+	{Developed a \underline{\href{https://github.com/hACKbUSTER/FixPlusPlus}{marker based AR app}} using Vuforia that works like an AR version of ifixit.com and enables to recognize different models of MacBook and display 3D arrows pointing the corresponding repair location.}
 \resumeSubHeadingListEnd
 
-%-----------OTHER-----------------
-\section{Other}
+%-----------OTHER INFORMATION-----------------
+\section{Other Information}
   \resumeSubHeadingListStart
     \item{
-      \textbf{Digital Art}{: Do not participle in a professional matter, but hold a Dribbble player account with 16 shots and 200+ likes. Individually finished all icons, user interfaces, promo videos and marketing materials of my own apps. Published some of my own design work as free on Sketch App Sources.}
+      \textbf{Digital Art}{: Held a Dribbble player account with 16 shots and 200+ likes. Individually finished all icons, user interfaces, promo videos and marketing materials of my own apps. Published some of my  design work as free on Sketch App Sources.}
     }
   \resumeSubHeadingListEnd
 
