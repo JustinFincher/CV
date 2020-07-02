@@ -1,5 +1,5 @@
-> PLEASE VISIT [WEB](https://fincher.im/CV.html) / [Markdown](README-CN&EN-MINIFIED.md) / [LaTeX](https://github.com/JustinFincher/CV/blob/master/LaTeX/CV.pdf) / [PDF](https://fincher.im/Haotian%20Zheng.pdf) FOR THE LASTEST ENGLISH VERSION  
-> 请访问最新版本的 [网页](https://fincher.im/CV.html) / [Markdown](README-CN&EN-MINIFIED.md) / [LaTeX](https://github.com/JustinFincher/CV/blob/master/LaTeX/CV.pdf) /  [PDF](https://fincher.im/Haotian%20Zheng.pdf) 中文版
+> PLEASE VISIT [PDF](https://github.com/JustinFincher/CV/blob/master/LaTeX/CV.pdf) FOR THE LASTEST ENGLISH VERSION, THE INFO PROVIDED BELOW MIGHT BE OUTDATED 
+> 请访问最新版本的 [PDF](https://github.com/JustinFincher/CV/blob/master/LaTeX/CV.pdf) 中文版，下文信息可能已经过期
 
 ---
 
