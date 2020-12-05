@@ -50,6 +50,23 @@
     \end{tabular*}\vspace{-6pt}
 }
 
+\newcommand{\resumeSubheadingCompact}[2]{
+\vspace{-0pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2
+    \end{tabular*}\vspace{-0pt}
+    \vspace{-6pt}
+}
+
+\newcommand{\resumeSubheadingCompactVertical}[2]{
+	\vspace{-0pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1}
+    \end{tabular*}\vspace{-0pt}
+    #2
+    \vspace{-6pt}
+}
+
 \newcommand{\resumeSubheadingExtended}[3]{
   \vspace{-0pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -98,29 +115,34 @@
   Portfolio : \href{https://portfolio.justzht.com/}{https://portfolio.justzht.com/} & Mobile : +86-185-5657-2637 (P.R.C.) / +1-469-751-2468 (US)\\
 \end{tabular*}
 
+%-----------STATS-----------------
+\section{Programming Stats}
+\resumeSubHeadingListStart
+  	\resumeSubheadingCompactVertical
+      {Programming Language}
+      {Objective-C (1100+ stars on \underline{\href{https://github.com/JustinFincher}{GitHub}}), C\# (40k LOC), Java (20k LOC), JavaScript, Swift, Ruby.}
+    \resumeSubheadingCompactVertical
+      {Familiar Framework \& Skill}
+      {iOS/macOS, Android, Unity, Vue.js, Ruby On Rails, git, Adobe Suite, Sketch}
+  \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
 \section{Education Background}
   \resumeSubHeadingListStart
+  	\resumeSubheading
+      {Carnegie Mellon University}{Pittsburgh, U.S.}
+      {Master of Science in Mobile and IoT Engineering}{Starting Feb. 2021}
     \resumeSubheading
       {Northeastern University}{Boston, U.S. (Remote)}
       {Master of Science in Information Systems (Summer Semester)}{Jul. 2020 -- Aug. 2020}
-      \resumeItemListStart
-      	\resumeItem{Coursework}
-          {Concpts of Object-Oriented Design (Java)}
-      \resumeItemListEnd
     \resumeSubheading
       {Central South University}{Changsha, China}
       {Bachelor of Engineering in Computer Science and Technology (conferred in June 2019)}{Sept. 2014 -- Jun. 2018}
       \resumeItemListStart
       	\resumeItem{Coursework}
           {Computer Graphics, Human-Computer Interaction, Algorithm Analysis and Design, Data Structure, Object-Oriented Programming, Java Language and System Design, Computer Network, Discrete Mathematics, etc}
-        \resumeItem{Programming Language}
-          {Objective-C (1100+ stars on \underline{\href{https://github.com/JustinFincher}{GitHub}}), C\# (40k LOC), Java (20k LOC), JavaScript, Swift, Ruby.}
-        \resumeItem{Framework \& Skill}
-          {iOS, Android, Unity, Vue.js, Ruby On Rails, git, Adobe Suite, Sketch}
         \resumeItem{Honor}
-          {Outstanding Collegiate Dissertation on Graduation Project (\textit{GIS Planet System Design and Implementation using Unity Engine}), CSU}
+          {Outstanding Collegiate Dissertation on Graduation Project (\textit{GIS Planet System Design and Implementation using Unity Engine})}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -243,17 +265,12 @@
 %---------HONORS & AWARDS--------
 \section{Honors \& Awards}
 \resumeSubHeadingListStart
-  	\resumeSubheadingExtended{2nd Place for MSRA \& HNU HH Hackathon}{Changsha, China}{Built an \underline{\href{https://github.com/JustinFincher/AReco}{AR based wiki app}} that analyzes the camera feed using object detection model and displays virtual information card right on the scanned object.}
-	\resumeSubheadingExtended{1st Place for IKODE IKEA Hackathon}{Shanghai, China}
-	{Built an \underline{\href{https://github.com/hACKbUSTER/IKEA-Maker}{AR based guide app}} for assembling IKEA furniture and was offered IKEA incubator program.}
-	\resumeSubheadingExtended{1st Place for SegmentFault \& AngelHack Hackathon}{Shenzhen, China}
-	{Built an \underline{\href{https://github.com/hACKbUSTER/ProjectDaVinci}{AI voice bot}} that recognizes voice commands and constructs mobile user interface for users.}
-	\resumeSubheadingExtended{3rd Place for Uber API Hackathon}{Beijing, China}
-	{Developed a \underline{\href{https://github.com/hACKbUSTER/UberGuide-iOS}{companion app}} for Uber travelers using Uber API, chatbot UI and location-based AR.}
-	\resumeSubheadingExtended{2nd Place for China Academy of Art Hackathon}{Hangzhou, China}
-	{Developed an \underline{\href{https://github.com/hACKbUSTER/Renaissance}{audio visualization app}} that communicates with Max7 audio composer using OSC protocol.}
-	\resumeSubheadingExtended{1st Place for SegmentFault Hackathon}{Beijing, China}
-	{Developed a \underline{\href{https://github.com/hACKbUSTER/FixPlusPlus}{marker based AR app}} using Vuforia that works like an AR version of ifixit.com and enables to recognize different models of MacBook and display 3D arrows pointing the corresponding repair location.}
+  	\resumeSubheadingCompact{2nd Place for Microsoft Research Asia \& Hunan University Hackathon}{Changsha, China}
+	\resumeSubheadingCompact{1st Place for IKODE IKEA Hackathon}{Shanghai, China}
+	\resumeSubheadingCompact{1st Place for SegmentFault \& AngelHack Hackathon}{Shenzhen, China}
+	\resumeSubheadingCompact{3rd Place for Uber API Hackathon}{Beijing, China}
+	\resumeSubheadingCompact{2nd Place for China Academy of Art Hackathon}{Hangzhou, China}
+	\resumeSubheadingCompact{1st Place for SegmentFault Hackathon}{Beijing, China}
 \resumeSubHeadingListEnd
 
 %-----------OTHER INFORMATION-----------------
