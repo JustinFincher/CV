@@ -32,8 +32,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-8pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 %-------------------------
 % Custom commands
@@ -44,7 +44,7 @@
 }
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-4pt}}
+    \textbf{#1}{: #2 \vspace{-1pt}}
   }
 }
 
@@ -102,10 +102,10 @@
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]\vspace{-1pt}}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-2pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]\vspace{-2pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-4pt}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -119,23 +119,23 @@
   Portfolio : \href{https://portfolio.justzht.com/}{https://portfolio.justzht.com/} & Email : \href{mailto:justzht@gmail.com}{justzht@gmail.com} \\
   LinkedIn : \href{https://www.linkedin.com/in/justzht/}{https://www.linkedin.com/in/justzht/} & Mobile : +1 (469) 751-2468\\
 \end{tabular*}
-\vspace{-10pt}
+\vspace{-8pt}
 
 %-----------EDUCATION-----------------
-\section{Education Background}
+\section{Education}
   \resumeSubHeadingListStart
   	\resumeSubheading
       {Carnegie Mellon University}{Pittsburgh, PA}
-      {Master of Science in Mobile and IoT Engineering (previously MSIT-MOB)}{Expected in May 2021}
+      {Master of Science in Mobile and IoT Engineering (GPA 3.91/4.0)}{January 2021 - May 2022}
 
     \resumeSubheading
       {Central South University}{Changsha, China}
-      {Bachelor of Engineering in Computer Science and Technology}{Conferred in June 2019}
+      {Bachelor of Engineering in Computer Science and Technology}{Sept 2014 - June 2019}
       \resumeItemListStart
         \resumeItem{Honor}
           {Outstanding Collegiate Dissertation (\textit{GIS Planet System Design and Implementation using Unity Engine})}
         \resumeItem{Volunteer}
-          {Taught iOS development basics as a tutor in the school-funded Apple Club}
+          {Taught iOS development basics as a tutor to college students in the school-funded Apple Club}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -146,38 +146,58 @@
 \resumeSubHeadingListStart
   	\resumeSubheadingCompactVertical
       {Programming Language}
-      {Objective-C (1100+ stars on \underline{\href{https://github.com/JustinFincher}{GitHub}}), C\# (40k LOC), Java (20k LOC), JavaScript, Swift, Ruby}
+      {Objective-C (1100+ stars on \underline{\href{https://github.com/JustinFincher}{GitHub}}), C\#, Java, Swift, JavaScript, Ruby}
     \resumeSubheadingCompactVertical
       {Familiar Framework \& Skillset}
-      {Software Dev (iOS/macOS/Android), Game Dev (Unity), Web Dev (Vue.js), UI Design (Sketch, 200+ likes on \underline{\href{https://dribbble.com/JustZht}{Dribbble}})}
+      {Software Dev (iOS/macOS/Android), Game Dev (Unity), Web Dev (Vue.js), UI Design (Sketch)}
     \resumeSubheadingCompactVertical
       {Languages}
-      {English (Good), Chinese (Native)}
+      {English (Fluent), Chinese (Native Speaker)}
   \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
 \section{Professional Experience}
   \resumeSubHeadingListStart
+  
+  \resumeSubheading
+      {Apple}{Cupertino, CA}
+      {SwiftUI Mac Framework Engineer}{July 2022 - Present}
+      \resumeItemListStart
+      	\resumeItem{Development}
+		{Maintained SwiftUI internals, with bug fixes and performance improvements. Worked on new feature proposals and implementations for the macOS \& iOS platforms.}
+      \resumeItemListEnd
+
+  	
+  	\resumeSubheading
+      {Apple}{Cupertino, CA}
+      {Bluetooth Software Intern}{May 2021 - August 2021}
+      \resumeItemListStart
+      	\resumeItem{Development}
+		{Built internal bluetooth audio prototype using Swift, CoreAudio, CoreBluetooth, SwiftUI, and XPC, resulted in validated idea with backing data. Integrated the concept with optimized Bluetooth behaviors and macOS system user interface.}
+		\resumeItem{Presentation}
+         {Among top 10\% of SWE interns to present project demos and Keynotes to Craig Federighi, SVP of SWE.}
+      \resumeItemListEnd
+
       
     \resumeSubheading
-      {rct studio}{Beijing \& Los Angeles}
+      {rct studio}{Beijing, China}
       {Co-founder \& Chief Engineer}{September 2018 - January 2019}
       \resumeItemListStart
       	\resumeItem{Development}
-		{Led development of interactive VR movie and the pipeline behind it, including a REPL-style tool capable of transforming movie scripts into 3D visualizations, as shown at YC Demo day and highlighted by TechCrunch.}
+		{Led development of interactive VR pipeline, a REPL-like tool turning movie scripts into 3D visualizations.}
 		\resumeItem{Collaboration}
          {Coordinated closely with other founders for the startup to be admitted to Y Combinator W19 batch.}
       \resumeItemListEnd
       
     \resumeSubheading
       {Baidu}{Beijing, China}
-      {Full-stack Software Engineer Intern at Smart Hardware BU (RavenTech before acquisition)}{March 2016 - September 2017}
+      {Software Engineer Intern at Smart Hardware BU (RavenTech before acquisition)}{March - August in both 2016 \& 2017}
       \resumeItemListStart
         \resumeItem{Development \& Maintenance}
           {Delivered 3D graphical frontends on smart speakers sold in 2016. Built internal tooling for documentation generation, continuous integration, and build testing, resulting in an overall faster workflow. Refactored event handling logic with UniRx, essentially converting delegates into streams with better readability \& usability.}
         \resumeItem{Rapid Prototyping}
-          {Developed native JNI plugins with shared bitmap access, socket forwarding for leap motion data, and gaze-based GUI system for the GearVR demo, making it possible to have Android WebView working as a touchable 3D surface. Supported client-side development to replicate complex UI design using advanced iOS animation techniques.}
+          {Developed native JNI plugins with shared bitmap access, leap motion data socket forwarding, and gaze-based GUI system for the GearVR, making it possible to have Android WebView working as a touchable 3D surface in VR.}
       \resumeItemListEnd
       
   \resumeSubHeadingListEnd
@@ -188,28 +208,27 @@
    
    \resumeSubheadingCompact{Apple WWDC Scholarships}{June 2018 - June 2020}     
       \resumeItemListStart
-        \resumeItemSingle{Won the 2020 one with Shader Node, an interactive GLSL shader playground packed with a node-based interface written from ground-up. Implemented graph structure and searching algorithms to store and traverse nodes. Introduced code generation for GLSL operators and types so shader previews can be updated in realtime. (SpriteKit, UIKit Dynamics, Combine, SwiftUI).}
-        \resumeItemSingle{Won the 2018 one with Golf GO, a golf game written in 1000 lines but provides millions of procedurally generated terrain maps. Achieved runtime mesh modification by applying noise values as vertex offsets onto a plane. (SceneKit, GameplayKit, ModelIO).}
+        \resumeItemSingle{Won the 2020 challenge with Shader Node, an interactive GLSL shader playground packed with a node-based interface written from ground-up. Implemented graph structure and searching algorithms to store and traverse nodes. Introduced code generation for GLSL operators and types so shader previews can be updated in realtime. (SpriteKit, UIKit Dynamics, Combine, SwiftUI).}
+        \resumeItemSingle{Won the 2018 ticket with Golf GO, a golf game written in 1000 lines but provides millions of procedurally generated terrain maps. Achieved runtime mesh modification by applying noise values as vertex offsets onto a plane. (SceneKit, GameplayKit, ModelIO).}
       \resumeItemListEnd
    
-   \resumeSubheadingCompact{Unity Native Integration}{June 2017 - Present}     
+   \resumeSubheadingCompact{Unity Native Integration}{June 2017 - January 2021}     
    \resumeItemListStart
-        \resumeItemSingle{Established a plugin to make Unity engine output images to multiple surfaces on Android, mostly utilized by live wallpapers.}
-        \resumeItemSingle{Researched and hooked Unity's native private rendering APIs via runtime reflection, essentially providing a public interface for the host application to interact with. This integration framework is now used by several vendors on 100k+ active users.}
-        \resumeItemSingle{Deployed ContentProvider-based early-init techniques on Android and method swizzling on iOS to safely redirect and dispatch conditional lifecycle calls, greatly extending engine's behavior in non-game environments.}
+        \resumeItemSingle{Established native plugins on Asset Store to make Unity engine dynamically output to multiple surfaces on Android, mostly utilized in live wallpapers and used by several vendors on 100k+ users.}
+        \resumeItemSingle{Deployed ContentProvider-based early-init techniques on Android and method swizzling on iOS to safely redirect and dispatch conditional lifecycle calls, greatly extending engine's behavior for non-game use-cases.}
       \resumeItemListEnd
    
-   \resumeSubheadingCompact{Indie App Business}{October 2016 - Present}    
+   \resumeSubheadingCompact{Indie App Business}{October 2016 - January 2021}    
    \resumeItemListStart
         \resumeItemSingle{Recreated Apple Music's fluid-like album effect in Android by implementing Kawase Blur and Domain Wrapping in LibGDX. Improved shader performance with lookup table by 80\% as measured by RenderDoc / GAPID so low-end devices can run it.}
-        \resumeItemSingle{Wrote, maintained, and promoted Android apps once ranked as the most paid app on Google Play (US region, Jan 21, 2018) and covered by The Verge, LifeHacker, and The Next Web.}
+        \resumeItemSingle{Developed, launched, and promoted Android apps once ranked as the most paid app on Google Play (US region, Jan 21, 2018) and covered by The Verge, LifeHacker, and The Next Web.}
         \resumeItemSingle{Published iOS apps that were featured on App Store (Apps We Love Right Now) and upvoted as top 4 on Product Hunt.}
       \resumeItemListEnd
       
-   \resumeSubheadingCompact{Procedural Generation}{August 2016 - June 2018}     
-   \resumeItemListStart
-        \resumeItemSingle{Ported parts of libNoise from C++ to Cg to execute in parallel, speeding up GPU-based height-map generation by 50 times on an iPhone in comparison to CPU-only.}
-       \resumeItemListEnd
+%   \resumeSubheadingCompact{Procedural Generation}{August 2016 - June 2018}     
+%   \resumeItemListStart
+%        \resumeItemSingle{Ported parts of libNoise from C++ to Cg to execute in parallel, speeding up GPU-based height-map generation by 50 times on an iPhone in comparison to CPU-only.}
+%       \resumeItemListEnd
  
   \resumeSubHeadingListEnd
   
@@ -217,13 +236,11 @@
 %--------CONFERENCES & SERVICES------------
 \section{Activities \& Awards}
   \resumeSubHeadingListStart
-      \resumeItem{Open Source}
-          {Open-sourced custom UIControls to demonstrate how to achieve advanced UI and animation techniques with CoreAnimation and CoreGraphics. Contributed to repos from Microsoft, Unity, JetBrains, Cocoapods, and Mapbox.}   
-      \resumeItem{Industry Conference}
-          {Demonstrated sketch-based 3D space cloth modeling as a session speaker at Wacom Connected Ink event.}      
       \resumeItem{Hackathons}
-          {Multiple hackathon winner record, including 1st place in IKEA hackathon, 1st place in SegmentFault Hackathon, 2nd place in Microsoft \& HNU Hackathon, 2nd place in China Academy of Art Hackathon, 3rd place in Uber Hackathon, etc. }      
+          {Multiple hackathon winner record, including 1st place in IKEA hackathon, 1st place in SegmentFault Hackathon, 2nd place in Microsoft \& HNU Hackathon, 2nd place in China Academy of Art Hackathon, 3rd place in Uber Hackathon, etc. }       
   \resumeSubHeadingListEnd
+  
+
   
 %-------------------------------------------
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  25 JAN 2021 14:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  2 FEB 2021 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -338,10 +338,10 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 6777 strings out of 480608
- 102280 string characters out of 5903631
- 393461 words of memory out of 5000000
- 22552 multiletter control sequences out of 15000+600000
+ 6778 strings out of 480608
+ 102287 string characters out of 5903631
+ 393466 words of memory out of 5000000
+ 22553 multiletter control sequences out of 15000+600000
  537579 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,11n,45p,413b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
