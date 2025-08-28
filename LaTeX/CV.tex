@@ -1,4 +1,5 @@
 \documentclass[letterpaper,10pt]{article}
+\linespread{0.98}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -10,6 +11,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
+\usepackage[framemethod=TikZ]{mdframed}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -17,11 +19,26 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
+% Add block quote
+\newmdenv[
+  linecolor=gray,
+  linewidth=1pt,
+  leftline=true,
+  topline=false,
+  bottomline=false,
+  rightline=false,
+  skipabove=7pt,
+  skipbelow=7pt,
+  innertopmargin=3pt,
+  innerbottommargin=3pt,
+  innerleftmargin=10pt
+]{blockquote}
+
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.6in}
-\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.6in}
 \addtolength{\textwidth}{1.2in}
-\addtolength{\topmargin}{-.6in}
+\addtolength{\topmargin}{-.7in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -32,14 +49,14 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-10pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-7pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
 
 %-------------------------
 % Custom commands
 \newcommand{\resumeItemSingle}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-1pt}}
   }
 }
 \newcommand{\resumeItem}[2]{
@@ -69,7 +86,7 @@
       \textbf{#1}
     \end{tabular*}\vspace{-0pt}
     #2
-    \vspace{-6pt}
+    \vspace{-1pt}
 }
 
 \newcommand{\resumeSubheadingExtended}[3]{
@@ -91,8 +108,8 @@
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  \vspace{0pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-6pt}
@@ -102,10 +119,10 @@
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]\vspace{-2pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, itemsep=-2pt, topsep=0pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-4pt}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=1pt, topsep=4pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -113,13 +130,25 @@
 
 \begin{document}
 
+%-------PROFILE-------
+%\textbf{\Large HAOTIAN ZHENG}\\
+%
+
+\normalsize
+
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\Large HAOTIAN ZHENG} \\
   Portfolio : \href{https://portfolio.justzht.com/}{https://portfolio.justzht.com/} & Email : \href{mailto:justzht@gmail.com}{justzht@gmail.com} \\
   LinkedIn : \href{https://www.linkedin.com/in/justzht/}{https://www.linkedin.com/in/justzht/} & Mobile : +1 (469) 751-2468\\
 \end{tabular*}
-\vspace{-8pt}
+\vspace{-5pt}
+
+\begin{blockquote}
+\small Software engineer with expertise in SwiftUI and real-time graphics. Currently at Apple, building UI frameworks used across macOS and iOS. Previously created top-ranked indie apps. Passionate about human-computer interaction and creative tools.
+\end{blockquote}
+\vspace{-14pt}
+
 
 %-----------EDUCATION-----------------
 \section{Education}
@@ -131,13 +160,7 @@
     \resumeSubheading
       {Central South University}{Changsha, China}
       {Bachelor of Engineering in Computer Science and Technology}{Sept 2014 - June 2019}
-      \resumeItemListStart
-        \resumeItem{Honor}
-          {Outstanding Collegiate Dissertation (\textit{GIS Planet System Design and Implementation using Unity Engine})}
-        \resumeItem{Volunteer}
-          {Taught iOS development basics as a tutor to college students in the school-funded Apple Club}
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
+	\resumeSubHeadingListEnd
 
 
 
@@ -146,13 +169,10 @@
 \resumeSubHeadingListStart
   	\resumeSubheadingCompactVertical
       {Programming Language}
-      {Objective-C (1100+ stars on \underline{\href{https://github.com/JustinFincher}{GitHub}}), C\#, Java, Swift, JavaScript, Ruby}
+      {Objective-C, Swift, C\#, Java, JavaScript. (2000+ stars on \underline{\href{https://github.com/JustinFincher}{GitHub}})}
     \resumeSubheadingCompactVertical
-      {Familiar Framework \& Skillset}
-      {Software Dev (iOS/macOS/Android), Game Dev (Unity), Web Dev (Vue.js), UI Design (Sketch)}
-    \resumeSubheadingCompactVertical
-      {Languages}
-      {English (Fluent), Chinese (Native Speaker)}
+      {Platforms \& Skillsets}
+      {Application Dev (iOS/macOS/Android), Game Dev (Unity3D), Web Dev (Vue.js), UI Design (Sketch)}
   \resumeSubHeadingListEnd
 
 
@@ -162,19 +182,20 @@
   
   \resumeSubheading
       {Apple}{Cupertino, CA}
-      {SwiftUI Mac Framework Engineer}{July 2022 - Present}
+      {SwiftUI Framework Engineer}{July 2022 - Present}
       \resumeItemListStart
       	\resumeItem{Development}
-		{Maintained SwiftUI internals, with bug fixes and performance improvements. Worked on new feature proposals and implementations for the macOS \& iOS platforms.}
+		{Led the design and rollout of several public SwiftUI APIs, working cross-functionally with Human Interface, technical writers, and adopter teams to ensure clarity, consistency, and platform alignment.}
+		\resumeItem{Ownership}{Served as the component owner of SwiftUI List, Table, and ScrollView on Mac. Responsible for issue triage, bug fixes, perf optimizations (up to 6x faster in cold launch time), test reliability, and roadmap planning for future improvements.}
+		\resumeItem{Presentation}{Presented as the session speaker of \underline{\href{https://developer.apple.com/videos/play/wwdc2024/10148/}{Tailor macOS windows with SwiftUI}} in WWDC 2024.}
       \resumeItemListEnd
 
-  	
   	\resumeSubheading
       {Apple}{Cupertino, CA}
       {Bluetooth Software Intern}{May 2021 - August 2021}
       \resumeItemListStart
       	\resumeItem{Development}
-		{Built internal bluetooth audio prototype using Swift, CoreAudio, CoreBluetooth, SwiftUI, and XPC, resulted in validated idea with backing data. Integrated the concept with optimized Bluetooth behaviors and macOS system user interface.}
+		{Built internal Bluetooth audio prototype using CoreAudio, CoreBluetooth, SwiftUI, and XPC, featuring low-latency optimizations and integration with the macOS system UI.}
 		\resumeItem{Presentation}
          {Among top 10\% of SWE interns to present project demos and Keynotes to Craig Federighi, SVP of SWE.}
       \resumeItemListEnd
@@ -192,12 +213,10 @@
       
     \resumeSubheading
       {Baidu}{Beijing, China}
-      {Software Engineer Intern at Smart Hardware BU (RavenTech before acquisition)}{March - August in both 2016 \& 2017}
+      {Software Engineer Intern}{March - August in both 2016 \& 2017}
       \resumeItemListStart
-        \resumeItem{Development \& Maintenance}
-          {Delivered 3D graphical frontends on smart speakers sold in 2016. Built internal tooling for documentation generation, continuous integration, and build testing, resulting in an overall faster workflow. Refactored event handling logic with UniRx, essentially converting delegates into streams with better readability \& usability.}
-        \resumeItem{Rapid Prototyping}
-          {Developed native JNI plugins with shared bitmap access, leap motion data socket forwarding, and gaze-based GUI system for the GearVR, making it possible to have Android WebView working as a touchable 3D surface in VR.}
+        \resumeItem{Development}
+          {Delivered 3D graphical frontends for smart speakers. Developed native JNI plugins with shared bitmap access for GearVR devices, enabling Android WebView to function as a touchable 3D surface in virtual reality.}
       \resumeItemListEnd
       
   \resumeSubHeadingListEnd
@@ -206,8 +225,9 @@
 \section{Projects}
 \resumeSubHeadingListStart 
    
-   \resumeSubheadingCompact{Apple WWDC Scholarships}{June 2018 - June 2020}     
+   \resumeSubheadingCompact{Apple WWDC Scholarships}{June 2018 - June 2022}     
       \resumeItemListStart
+      	\resumeItemSingle{Won the 2022 challenge with Pegboard, a game logic node editor that that works like UnrealEngine Blueprint but implemented purely in Swift. Designed the system to execute data flow and logic flow with extensible data and UI model. (SwiftUI)}
         \resumeItemSingle{Won the 2020 challenge with Shader Node, an interactive GLSL shader playground packed with a node-based interface written from ground-up. Implemented graph structure and searching algorithms to store and traverse nodes. Introduced code generation for GLSL operators and types so shader previews can be updated in realtime. (SpriteKit, UIKit Dynamics, Combine, SwiftUI).}
         \resumeItemSingle{Won the 2018 ticket with Golf GO, a golf game written in 1000 lines but provides millions of procedurally generated terrain maps. Achieved runtime mesh modification by applying noise values as vertex offsets onto a plane. (SceneKit, GameplayKit, ModelIO).}
       \resumeItemListEnd
