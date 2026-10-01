@@ -49,7 +49,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-7pt}\scshape\raggedright\large
+  \vspace{-6pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
 
 %-------------------------
@@ -150,6 +150,11 @@
 \vspace{-14pt}
 
 
+%-----------SKILL-----------------
+\section{Skills}
+\textbf{Framework Dev} (SwiftUI, AppKit), \textbf{Application Dev} (iOS/macOS/Android, 2000+ stars on \underline{\href{https://github.com/JustinFincher}{GitHub}}), \textbf{Game Dev} (Unity3D, Playdate), \textbf{Web Dev} (Vue.js), \textbf{Languages} (Swift/Objective-C/Java/C\#), \textbf{UI Design} (Sketch), \textbf{Photography} (43M+ Unsplash views, 32 front-page features)
+\vspace{-7pt}
+
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
@@ -162,32 +167,18 @@
       {Bachelor of Engineering in Computer Science and Technology}{Sept 2014 - June 2019}
 	\resumeSubHeadingListEnd
 
-
-
-%-----------STATS-----------------
-\section{Skills}
-\resumeSubHeadingListStart
-  	\resumeSubheadingCompactVertical
-      {Programming Language}
-      {Objective-C, Swift, C\#, Java, JavaScript. (2000+ stars on \underline{\href{https://github.com/JustinFincher}{GitHub}})}
-    \resumeSubheadingCompactVertical
-      {Platforms \& Skillsets}
-      {Application Dev (iOS/macOS/Android), Game Dev (Unity3D), Web Dev (Vue.js), UI Design (Sketch)}
-  \resumeSubHeadingListEnd
-
-
 %-----------EXPERIENCE-----------------
 \section{Professional Experience}
   \resumeSubHeadingListStart
   
   \resumeSubheading
       {Apple}{Cupertino, CA}
-      {SwiftUI Framework Engineer}{July 2022 - Present}
+      {Senior UI Framework Engineer}{July 2022 - Present}
       \resumeItemListStart
       	\resumeItem{Development}
-		{Led the design and rollout of several public SwiftUI APIs, working cross-functionally with Human Interface, technical writers, and adopter teams to ensure clarity, consistency, and platform alignment.}
-		\resumeItem{Ownership}{Served as the component owner of SwiftUI List, Table, and ScrollView on Mac. Responsible for issue triage, bug fixes, perf optimizations (up to 6x faster in cold launch time), test reliability, and roadmap planning for future improvements.}
-		\resumeItem{Presentation}{Presented as the session speaker of \underline{\href{https://developer.apple.com/videos/play/wwdc2024/10148/}{Tailor macOS windows with SwiftUI}} in WWDC 2024.}
+		{Designed and implemented a dozen public SwiftUI APIs (Concentricity, BackgroundExtension, Window Styling, Outline Table, etc), working cross-functionally with Human Interface, technical writers, and adopter teams to ensure clarity and platform consistency. Named co-inventor on US patent applications.}
+		\resumeItem{Ownership}{Led Interactive Liquid Glass on Mac across SwiftUI and AppKit. Served as the component owner of SwiftUI List, Table, and ScrollView on Mac. Responsible for issue triage, bug fixes, performance optimizations (up to 6x faster in cold launch time), test reliability, and roadmap planning for future improvements.}
+		\resumeItem{Presentation}{Presented as the session speaker of \underline{\href{https://developer.apple.com/videos/play/wwdc2026/322/}{Compose advanced graphics effects with SwiftUI}} in WWDC 2026 and \underline{\href{https://developer.apple.com/videos/play/wwdc2024/10148/}{Tailor macOS windows with SwiftUI}} in WWDC 2024, as well as in-person demos during WWDC at Apple Developer Center.}
       \resumeItemListEnd
 
   	\resumeSubheading
@@ -195,9 +186,9 @@
       {Bluetooth Software Intern}{May 2021 - August 2021}
       \resumeItemListStart
       	\resumeItem{Development}
-		{Built internal Bluetooth audio prototype using CoreAudio, CoreBluetooth, SwiftUI, and XPC, featuring low-latency optimizations and integration with the macOS system UI.}
+		{Built internal Bluetooth audio prototype using CoreAudio, CoreBluetooth, SwiftUI, and XPC.}
 		\resumeItem{Presentation}
-         {Among top 10\% of SWE interns to present project demos and Keynotes to Craig Federighi, SVP of SWE.}
+         {Among top 10\% of SWE interns to present project demos to Craig Federighi, SVP of SWE.}
       \resumeItemListEnd
 
       
@@ -211,56 +202,51 @@
          {Coordinated closely with other founders for the startup to be admitted to Y Combinator W19 batch.}
       \resumeItemListEnd
       
-    \resumeSubheading
-      {Baidu}{Beijing, China}
-      {Software Engineer Intern}{March - August in both 2016 \& 2017}
-      \resumeItemListStart
-        \resumeItem{Development}
-          {Delivered 3D graphical frontends for smart speakers. Developed native JNI plugins with shared bitmap access for GearVR devices, enabling Android WebView to function as a touchable 3D surface in virtual reality.}
-      \resumeItemListEnd
+%    \resumeSubheading
+%      {Baidu / RavenTech}{Beijing, China}
+%      {Software Engineer Intern}{March - August in both 2016 \& 2017}
+%      \resumeItemListStart
+%        \resumeItem{Development}
+%          {Delivered 3D graphical frontends for smart speakers. Developed native JNI plugins with shared bitmap access for GearVR devices, enabling Android WebView to function as a touchable 3D surface in virtual reality.}
+%      \resumeItemListEnd
       
   \resumeSubHeadingListEnd
-  
 
-\section{Projects}
+%----------NEWPROJ---------------
+\section{Awards \& Recognition}
 \resumeSubHeadingListStart 
-   
-   \resumeSubheadingCompact{Apple WWDC Scholarships}{June 2018 - June 2022}     
+   \resumeSubheadingMininal{Apple WWDC Scholarships}     
       \resumeItemListStart
-      	\resumeItemSingle{Won the 2022 challenge with Pegboard, a game logic node editor that that works like UnrealEngine Blueprint but implemented purely in Swift. Designed the system to execute data flow and logic flow with extensible data and UI model. (SwiftUI)}
-        \resumeItemSingle{Won the 2020 challenge with Shader Node, an interactive GLSL shader playground packed with a node-based interface written from ground-up. Implemented graph structure and searching algorithms to store and traverse nodes. Introduced code generation for GLSL operators and types so shader previews can be updated in realtime. (SpriteKit, UIKit Dynamics, Combine, SwiftUI).}
-        \resumeItemSingle{Won the 2018 ticket with Golf GO, a golf game written in 1000 lines but provides millions of procedurally generated terrain maps. Achieved runtime mesh modification by applying noise values as vertex offsets onto a plane. (SceneKit, GameplayKit, ModelIO).}
+      	\resumeItemSingle{Won the 2022 one with Pegboard, a game logic node editor similar to UnrealEngine Blueprint but implemented purely in Swift. Designed the system to execute data flow and logic flow with an extensible data and UI model. (SwiftUI)}
+        \resumeItemSingle{Won the 2020 one with Shader Node, an interactive GLSL shader playground. Implemented graph structure and searching algorithms. Introduced code generation for GLSL operators and types so shader previews can be updated in real-time. (SpriteKit, UIKit Dynamics, Combine, SwiftUI).}
+        \resumeItemSingle{Won the 2018 one with Golf GO, a golf game under 1000 lines capable of generating millions of procedural terrain maps. Achieved runtime mesh modification by applying noise values as vertex offsets. (SceneKit, GameplayKit, ModelIO).}
       \resumeItemListEnd
-   
+ \resumeSubheadingMininal{Indie Sales \& Media Coverage}
+   \resumeItemListStart
+        \resumeItemSingle{Developed, launched, and promoted Skyline on Android, once ranked as the top paid app on Google Play (US region, Jan 21, 2018) and covered by The Verge, Lifehacker, and The Next Web.}
+        \resumeItemSingle{Published iOS apps that were featured on App Store (Apps We Love Right Now) and \#4 Product of the Day on Product Hunt.}
+      \resumeItemListEnd
+ \resumeSubheadingMininal{Hackathons}
+          \resumeItemListStart
+        \resumeItemSingle{Multiple hackathon winner record, including 1st place in IKEA hackathon, 1st place in SegmentFault Hackathon, 2nd place in Microsoft \& HNU Hackathon, 2nd place in China Academy of Art Hackathon, 3rd place in Uber Hackathon, etc. }   
+        \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJ-----------------
+\section{Side Projects}
+\resumeSubHeadingListStart
    \resumeSubheadingCompact{Unity Native Integration}{June 2017 - January 2021}     
    \resumeItemListStart
-        \resumeItemSingle{Established native plugins on Asset Store to make Unity engine dynamically output to multiple surfaces on Android, mostly utilized in live wallpapers and used by several vendors on 100k+ users.}
-        \resumeItemSingle{Deployed ContentProvider-based early-init techniques on Android and method swizzling on iOS to safely redirect and dispatch conditional lifecycle calls, greatly extending engine's behavior for non-game use-cases.}
+        \resumeItemSingle{Published native plugins on Asset Store that enable Unity engine to dynamically display to multiple surfaces on Android. Utilized by multiple Unity developers \& vendors across 100k+ users.}
+        \resumeItemSingle{Deployed ContentProvider-based early-init techniques on Android and method swizzling on iOS to safely redirect and dispatch conditional lifecycle calls, greatly extending the engine's behavior for non-game use-cases.}
       \resumeItemListEnd
    
-   \resumeSubheadingCompact{Indie App Business}{October 2016 - January 2021}    
+   \resumeSubheadingCompact{Indie Applications}{October 2016 - January 2021}    
    \resumeItemListStart
-        \resumeItemSingle{Recreated Apple Music's fluid-like album effect in Android by implementing Kawase Blur and Domain Wrapping in LibGDX. Improved shader performance with lookup table by 80\% as measured by RenderDoc / GAPID so low-end devices can run it.}
-        \resumeItemSingle{Developed, launched, and promoted Android apps once ranked as the most paid app on Google Play (US region, Jan 21, 2018) and covered by The Verge, LifeHacker, and The Next Web.}
-        \resumeItemSingle{Published iOS apps that were featured on App Store (Apps We Love Right Now) and upvoted as top 4 on Product Hunt.}
+        \resumeItemSingle{Recreated Apple Music's fluid-like album effect in Android by implementing Kawase Blur and Domain Warping in LibGDX. Improved shader performance by 80\% with a lookup table, as measured by RenderDoc / GAPID. Used by 200k+ users under the name of Diffuse.}
       \resumeItemListEnd
-      
-%   \resumeSubheadingCompact{Procedural Generation}{August 2016 - June 2018}     
-%   \resumeItemListStart
-%        \resumeItemSingle{Ported parts of libNoise from C++ to Cg to execute in parallel, speeding up GPU-based height-map generation by 50 times on an iPhone in comparison to CPU-only.}
-%       \resumeItemListEnd
- 
   \resumeSubHeadingListEnd
-  
-%
-%--------CONFERENCES & SERVICES------------
-\section{Activities \& Awards}
-  \resumeSubHeadingListStart
-      \resumeItem{Hackathons}
-          {Multiple hackathon winner record, including 1st place in IKEA hackathon, 1st place in SegmentFault Hackathon, 2nd place in Microsoft \& HNU Hackathon, 2nd place in China Academy of Art Hackathon, 3rd place in Uber Hackathon, etc. }       
-  \resumeSubHeadingListEnd
-  
-
   
 %-------------------------------------------
 \end{document}
